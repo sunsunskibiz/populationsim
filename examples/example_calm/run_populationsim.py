@@ -5,6 +5,9 @@ import os
 import sys
 import argparse
 
+# Add ../.. to the python path so we can find populationsim
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", ".."))
+
 from populationsim.core import inject
 import populationsim
 

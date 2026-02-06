@@ -1,0 +1,19 @@
+- apportion: true
+  coalesce: true
+  completed:
+  - mp_seed_balancing
+  name: mp_seed_balancing
+  simulate: true
+- apportion: true
+  coalesce: true
+  completed:
+  - mp_sub_balancing_TAZ_0
+  - mp_sub_balancing_TAZ_1
+  name: mp_sub_balancing_TAZ
+  simulate: true
+- apportion: true
+  coalesce: true
+  completed:
+  - mp_summarize
+  name: mp_summarize
+  simulate: true
